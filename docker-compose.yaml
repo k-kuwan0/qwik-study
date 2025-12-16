@@ -1,0 +1,13 @@
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ./dockerfiles
+      dockerfile: frontend/Dockerfile
+    volumes:
+      - ./frontend:/frontend
+      - frontend_node_modules:/frontend/typescript/node_modules
+    tty: true
+
+volumes:
+  frontend_node_modules:

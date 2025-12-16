@@ -1,0 +1,14 @@
+# Dependencies
+.pnpm-store
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
