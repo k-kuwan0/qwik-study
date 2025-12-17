@@ -6,8 +6,4 @@ services:
       dockerfile: frontend/Dockerfile
     volumes:
       - ./frontend:/frontend
-      - frontend_node_modules:/frontend/typescript/node_modules
     tty: true
-
-volumes:
-  frontend_node_modules:
