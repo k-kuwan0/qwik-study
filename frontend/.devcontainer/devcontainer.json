@@ -10,10 +10,12 @@
         "vscode": {
             "extensions": [
                 "streetsidesoftware.code-spell-checker",
+                "PKief.material-icon-theme",
                 "Anthropic.claude-code",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
-                "pflannery.vscode-versionlens"
+                "pflannery.vscode-versionlens",
+                "unifiedjs.vscode-mdx"
             ]
         }
     }
